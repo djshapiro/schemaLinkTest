@@ -20,7 +20,7 @@ it('renders an enzyme test', async () => {
     <App />
   );
 
-  await delay(4000);
+  await delay(0);
 
   const text = wrapper.text();
   expect(text).toMatch(/Mock/);
